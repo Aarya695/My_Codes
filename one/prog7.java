@@ -3,7 +3,7 @@ import java.util.*;
 class Demo7 {
 
     static void attendancePercent(int totalDays, int daysPresent) {
-        double percentage = (daysPresent / totalDays) * 100;
+        double percentage = ((double) daysPresent / totalDays) * 100;
         String result;
         if (percentage > 90) {
             result = "Excellent";
